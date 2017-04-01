@@ -1,0 +1,26 @@
+<div class="container main-container">
+  <div class="row">
+    <h2>Remote UI</h2>
+    <div class="col-md-6 col-xs-8 remote-section" ng-repeat="remoteData in homeCtrl.remoteObj.sections">
+      <div ng-if="$index === 0" class="volumne-count-section">
+      <h3>Volume Count</h3>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" aria-valuenow="{{homeCtrl.countToShow}}" aria-valuemin="0" aria-valuemax="100" ng-style="{'width':homeCtrl.percentVolCount}">
+            {{homeCtrl.countToShow}}
+          </div>
+        </div>
+      </div>
+      <div ng-if="$index === 1" class="num-section">
+        <div class="entered-number-section"><span ng-repeat="num in homeCtrl.clickedHammer">{{num}}</span></div>
+      </div>
+      <div class="remote-cells row" ng-repeat="cellData in remoteData.cells">
+        <div class="cell-button col-md-3 col-xs-3" hm-tap="onHammer" ng-class="{'bg-fill': $index !== 0 && $index%3 === 0}" ng-repeat="cellButton in cellData"  hm-pan="onHammer"  hm-swipe="onHammer" hm-press="showPressedKey(cellButton)">
+          <div class="cell-button-icon" append-svg svg-url="cellButton.type"></div>
+          <div class="cell-button-label">{{cellButton.label}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    

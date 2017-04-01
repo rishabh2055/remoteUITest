@@ -1,0 +1,309 @@
+{
+	"id": "rem.tv.tvIKrq",
+	"label": "Tv",
+	"type": "tv",
+	"roomId": "Cubical Labs",
+	"sections": [
+		{
+			"label": "",
+			"style": "",
+			"type": "tvMain",
+			"params": {
+				"maxX": 3,
+				"maxY": 5
+			},
+			"cells": [
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.SHuK0t",
+					"label": "INPUT",
+					"params": [],
+					"type": "blank",
+					"id": 0
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.Ohvc2e",
+					"label": "",
+					"params": [],
+					"type": "up",
+					"id": 1
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.PzOd7f",
+					"label": "",
+					"params": [],
+					"type": "power",
+					"id": 2
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.EJ9YSC",
+					"label": "",
+					"params": [],
+					"type": "left",
+					"id": 3
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.x8-fD1",
+					"label": "",
+					"params": [],
+					"type": "ok",
+					"id": 4
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.HKiCeU",
+					"label": "",
+					"params": [],
+					"type": "right",
+					"id": 5
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.Eiyr_r",
+					"label": "",
+					"params": [],
+					"type": "back",
+					"id": 6
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.4q1rgx",
+					"label": "",
+					"params": [],
+					"type": "down",
+					"id": 7
+				},
+				{
+					"isTrained": false,
+					"style": "calm",
+					"btnId": null,
+					"label": "",
+					"params": [],
+					"type": "blank",
+					"id": 8
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.yX82mt",
+					"label": "MENU",
+					"params": [],
+					"type": "blank",
+					"id": 9
+				},
+				{
+					"isTrained": false,
+					"style": "assertive",
+					"btnId": null,
+					"label": "",
+					"params": [],
+					"type": "chn",
+					"id": 10
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.rqutvn",
+					"label": "MUTE",
+					"params": [],
+					"type": "blank",
+					"id": 11
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.UCfmyk",
+					"label": "",
+					"params": [],
+					"type": "chn-minus",
+					"id": 12
+				},
+				{
+					"isTrained": false,
+					"style": "calm",
+					"btnId": null,
+					"label": "CHN",
+					"params": [],
+					"type": "blank",
+					"id": 13
+				},
+				{
+					"isTrained": true,
+					"style": "",
+					"btnId": "ir.01.3FV_zN",
+					"label": "",
+					"params": [],
+					"type": "chn-plus",
+					"id": 14
+				},
+				{
+					"isTrained": true,
+					"style": "calm",
+					"btnId": "ir.01.X3RXD4",
+					"label": "",
+					"params": [],
+					"type": "minus",
+					"id": 15
+				},
+				{
+					"isTrained": false,
+					"style": "calm",
+					"btnId": null,
+					"label": "VOL",
+					"params": [],
+					"type": "blank",
+					"id": 16
+				},
+				{
+					"isTrained": true,
+					"style": "",
+					"btnId": "ir.01.7D0OM-",
+					"label": "",
+					"params": [],
+					"type": "plus",
+					"id": 17
+				}
+			]
+		},
+		{
+			"label": "",
+			"style": "",
+			"type": "tvChannel",
+			"params": {
+				"maxX": 3,
+				"maxY": 5
+			},
+			"cells": [
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.9FVwXm",
+					"label": "",
+					"params": [],
+					"type": "1",
+					"id": 0
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.9frVgr",
+					"label": "",
+					"params": [],
+					"type": "2",
+					"id": 1
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.d3yIwt",
+					"label": "",
+					"params": [],
+					"type": "3",
+					"id": 2
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.L1Z218",
+					"label": "",
+					"params": [],
+					"type": "4",
+					"id": 4
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.Nez5di",
+					"label": "",
+					"params": [],
+					"type": "5",
+					"id": 5
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.Srj9jT",
+					"label": "",
+					"params": [],
+					"type": "6",
+					"id": 6
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.G9miiE",
+					"label": "",
+					"params": [],
+					"type": "7",
+					"id": 8
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.bnl3XV",
+					"label": "",
+					"params": [],
+					"type": "8",
+					"id": 9
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.rbAcbt",
+					"label": "",
+					"params": [],
+					"type": "9",
+					"id": 10
+				},
+				{
+					"isTrained": false,
+					"style": "assertive",
+					"btnId": null,
+					"label": "",
+					"params": [],
+					"type": "blank",
+					"id": 11
+				},
+				{
+					"isTrained": true,
+					"style": "assertive",
+					"btnId": "ir.01.GJ7O6T",
+					"label": "",
+					"params": [],
+					"type": "0",
+					"id": 12
+				},
+				{
+					"isTrained": false,
+					"style": "assertive",
+					"btnId": null,
+					"label": "",
+					"params": [],
+					"type": "blank",
+					"id": 13
+				},
+				{
+					"isTrained": false,
+					"style": "assertive",
+					"btnId": null,
+					"label": "",
+					"params": [],
+					"type": "",
+					"id": 14
+				}
+			]
+		}
+	]
+}
